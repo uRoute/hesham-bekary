@@ -1,0 +1,277 @@
+* {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   text-decoration: none;
+}
+
+body {
+   font-family: "Roboto", sans-serif;
+}
+
+img {
+   width: 100%;
+}
+
+.clr {
+   clear: both;
+}
+
+.container {
+   width: 90%;
+   margin: auto;
+}
+/* <!-- landing  --> */
+.landing {
+   height: 100vh;
+   background: url("../images/drew-coffman-1872.jpg") center no-repeat;
+   background-size: cover;
+}
+
+.landing .alyer {
+   background-color: rgb(0 0 0 / 0.3);
+   height: 100%;
+}
+
+.landing .navbar {
+   padding: 20px 0;
+}
+
+.landing .navbar .logo {
+   float: left;
+}
+
+.landing .navbar .logo {
+   width: 120px;
+}
+
+.landing .navbar .nav-menu {
+   float: right;
+}
+
+.landing .navbar .nav-menu li {
+   display: inline-block;
+}
+
+.landing .navbar .nav-menu li a {
+   color: #fff;
+   padding: 15px;
+   font-size: 17px;
+   font-weight: bold;
+}
+
+.landing .landing-area {
+   text-align: center;
+   color: #fff;
+   padding-top: 100px;
+}
+
+.landing .landing-area h1 {
+   padding: 30px 0;
+   font-size: 90px;
+}
+
+.landing .landing-area button {
+   background-color: transparent;
+   padding: 15px 20px;
+   color: #fff;
+   border-radius: 5px;
+   margin-top: 40px;
+}
+
+.landing .landing-area button.btn-1 {
+   background-color: rgb(142, 119, 84);
+   border: 1px solid rgb(142, 119, 84);
+}
+
+.landing .landing-area button.btn-2 {
+   border: 1px solid #fff;
+}
+
+.landing .landing-area .scroll-btn {
+   display: block;
+   width: 20px;
+   height: 40px;
+   border-radius: 50px;
+   border: 1px solid #fff;
+   margin: 90px auto;
+}
+
+.landing .landing-area .scroll-btn span {
+   width: 7px;
+   height: 7px;
+   background-color: #fff;
+   border-radius: 50%;
+   display: inline-block;
+}
+
+/* <!-- About  --> */
+.about {
+   padding: 50px 0;
+}
+
+.about .about-img {
+   width: 49%;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.about .about-img img {
+   width: 90%;
+}
+
+.about .about-info {
+   width: 49%;
+   display: inline-block;
+}
+
+.about .about-info .text {
+   text-align: center;
+}
+
+.about .about-info p {
+   padding: 40px 0;
+}
+
+.about .about-info .items img {
+   width: 50px;
+   vertical-align: middle;
+}
+
+.about .about-info .items li {
+   margin-bottom: 15px;
+}
+
+/* <!-- offer  --> */
+
+.offer {
+   padding: 50px 0;
+   background-color: rgb(248, 248, 248);
+}
+
+.offer .offer-info,
+.offer-img {
+   width: 49%;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.offer-img {
+   text-align: end;
+}
+
+.offer-img img {
+   width: 90%;
+}
+
+.offer .offer-info {
+   text-align: center;
+}
+
+.offer .offer-info p {
+   padding: 30px 0;
+}
+
+/* <!-- gallery  --> */
+
+.gallery {
+   padding: 50px 0;
+   text-align: center;
+}
+
+.gallery .title p {
+   padding: 30px 0;
+}
+
+.gallery .item {
+   float: left;
+   width: 33.3%;
+}
+
+.gallery .item img {
+   width: 90%;
+}
+
+.gallery .item .text h3 {
+   padding: 20px 0;
+}
+
+/* <!-- blog --> */
+.blog {
+   padding: 50px 0;
+}
+
+.blog .blog-info {
+   width: 49%;
+   float: left;
+}
+
+.blog .blog-map {
+   width: 49%;
+   float: right;
+}
+
+.blog .blog-info .text {
+   text-align: center;
+}
+
+.blog .blog-info p {
+   padding: 30px 0;
+}
+
+.blog .blog-info li img {
+   width: 60px;
+   vertical-align: middle;
+}
+
+/* <!-- contact  --> */
+.contact {
+   padding: 50px 0;
+   background-color: rgb(64, 61, 56);
+}
+
+.contact .cotact-area .item {
+   width: 23%;
+   float: left;
+   color: #aaa;
+   padding: 0 10px;
+}
+
+.contact .cotact-area .item img {
+   width: 40px;
+   vertical-align: middle;
+}
+
+.contact .cotact-area .item h3 {
+   padding-bottom: 30px;
+}
+
+.contact .cotact-area .item p {
+   padding: 30px 0;
+}
+
+.contact .cotact-area .item li {
+   border-bottom: 1px solid rgb(46, 44, 42);
+   margin-bottom: 20px;
+   padding-bottom: 10px;
+}
+
+/* <!-- footer  --> */
+.footer {
+   padding: 50px 0;
+   background-color: rgb(53, 51, 48);
+   text-align: center;
+   color: #fff;
+}
+
+.footer .foot-logo {
+   width: 160px;
+}
+
+.footer p {
+   padding: 20px 0;
+}
+
+.footer .icons img {
+   width: 40px;
+}
